@@ -6,7 +6,7 @@ version = File.read(File.expand_path("../lib/puma/const.rb", __FILE__))[/VERSION
 
 Gem::Specification.new do |s|
   s.name = "puma"
-  s.version = version
+  s.version = "#{version}.reevoo"
   s.authors = ["Evan Phoenix"]
   s.description = "Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications. Puma is intended for use in both development and production environments. It's great for highly concurrent Ruby implementations such as Rubinius and JRuby as well as as providing process worker support to support CRuby well."
   s.summary = "Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack applications"
